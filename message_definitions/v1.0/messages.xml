@@ -888,7 +888,26 @@
     <field name="A2A_msg_rate" type="uint32"/>
   </message>
 
-  <!--107 is free -->
+  <!--107 is free -->				   
+  <message name="STEREO_GATE_INFO" id="107">
+    <field name="x_center" type="uint8"/>
+    <field name="y_center" type="uint8"/>
+    <field name="radius" type="uint8"/>
+    <field name="fitness" type="uint8"/>
+    <field name="fps" type="uint8"/>
+    <field name="measured_x_gate" type="float"/>
+    <field name="measured_y_gate" type="float"/>
+    <field name="measured_z_gate" type="float"/>
+    <field name="current_x_gate" type="float"/>
+    <field name="current_y_gate" type="float"/>
+    <field name="fps_filter" type="float"/>
+    <field name="body_filter_x" type="float"/>
+    <field name="body_filter_y" type="float"/>
+    <field name="uncertainty" type="int16"/>
+    <field name="predicted_x" type="float"/>
+    <field name="predicted_y" type="float"/>
+  </message>
+  
   <message name="PIKSI_HEARTBEAT" id="108">
     <field name="heartbeat" type="uint32"/>
   </message>
@@ -919,6 +938,13 @@
   </message>
 
   <!--112 is free -->
+  <message name="STEREO_DATA_INFO" id="112">
+    <field name="len" type="uint8"/>
+    <field name="frequency" type="uint8"/>
+    <field name="freq" type="uint8"/>
+  </message>
+  
+  
 
   <message name="MLX_SERIAL" id="113">
     <field name="serial0" type="uint32"/>
