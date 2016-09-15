@@ -943,7 +943,7 @@
   <message name="STEREO_DATA_INFO" id="112">
     <field name="data_len" type="uint8"/>
     <field name="frequency" type="uint8"/>
-    <field name="freq" type="uint8"/>
+    <field name="the_same_freq" type="uint8"/>
   </message>
   
   
