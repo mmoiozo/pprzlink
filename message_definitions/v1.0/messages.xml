@@ -900,12 +900,14 @@
     <field name="measured_z_gate" type="float"/>
     <field name="current_x_gate" type="float"/>
     <field name="current_y_gate" type="float"/>
+    <field name="delta_z_gate" type="float"/>
     <field name="fps_filter" type="float"/>
     <field name="body_filter_x" type="float"/>
     <field name="body_filter_y" type="float"/>
     <field name="uncertainty" type="int16"/>
     <field name="predicted_x" type="float"/>
     <field name="predicted_y" type="float"/>
+    <field name="gate_detected" type="int16"/>
   </message>
   
   <message name="PIKSI_HEARTBEAT" id="108">
@@ -2060,6 +2062,15 @@
   </message>
 
   <!--230 is free -->
+  <message name="OPTIC_FLOW_DEBUG" id="230">
+    <field name="optitrack_vel_x"    type="float"/>
+    <field name="optitrack_vel_y"    type="float"/>
+    <field name="body_vel_x"    type="float"/>
+    <field name="body_vel_y"    type="float"/>
+    <field name="vel_x"    type="float"/>
+    <field name="vel_y"    type="float"/>
+    <field name="psi"   type="float" unit="rad" alt_unit="deg" alt_unit_coef="57.29578"/>
+  </message>
 
   <message name="ROTORCRAFT_STATUS" id="231">
     <field name="link_imu_nb_err" type="uint32"/>
