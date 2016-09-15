@@ -941,7 +941,7 @@
 
   <!--112 is free -->
   <message name="STEREO_DATA_INFO" id="112">
-    <field name="len" type="uint8"/>
+    <field name="data_len" type="uint8"/>
     <field name="frequency" type="uint8"/>
     <field name="freq" type="uint8"/>
   </message>
