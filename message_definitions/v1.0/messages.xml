@@ -2061,7 +2061,7 @@
     <field name="imageBuffer" type="uint8[]"/>
   </message>
 
-  <!--230 is free -->
+  <!--230 is not free -->
   <message name="OPTIC_FLOW_DEBUG" id="230">
     <field name="optitrack_vel_x"    type="float"/>
     <field name="optitrack_vel_y"    type="float"/>
