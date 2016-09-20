@@ -908,6 +908,7 @@
     <field name="predicted_x" type="float"/>
     <field name="predicted_y" type="float"/>
     <field name="gate_detected" type="int16"/>
+    <field name="ready_pass_through" type="int16"/>
   </message>
   
   <message name="PIKSI_HEARTBEAT" id="108">
