@@ -2262,6 +2262,11 @@
   </message>
 
    <!--251 is free -->
+   <message name="SONAR_BEBOP_INFO" id="251">
+     <field name="after"  type="float" />
+     <field name="before"  type="float" />
+     <field name="dif_pre_cur"  type="float" />
+   </message>
 
    <message name="GPS_SMALL" id="252">
     <field name="multiplex_speed"  type="uint32">bits 31-21 course in decideg : bits 20-10 ground speed in cm/s : bits 9-0 climb speed in cm/s</field>
