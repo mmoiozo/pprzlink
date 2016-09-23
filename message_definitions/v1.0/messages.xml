@@ -893,6 +893,10 @@
     <field name="x_center" type="uint8"/>
     <field name="y_center" type="uint8"/>
     <field name="radius" type="uint8"/>
+    <field name="x_center_p" type="uint8"/>
+    <field name="y_center_p" type="uint8"/>
+    <field name="disperity" type="uint8"/>
+    <field name="measured_blob_distance" type="float"/>
     <field name="fitness" type="uint8"/>
     <field name="fps" type="uint8"/>
     <field name="measured_x_gate" type="float"/>
