@@ -953,9 +953,18 @@
   
   
 
-  <message name="MLX_SERIAL" id="113">
+  <!--message name="MLX_SERIAL" id="113">
     <field name="serial0" type="uint32"/>
     <field name="serial1" type="uint32"/>
+  </message-->
+  
+  <message name="SNAKE_GATE_INFO" id="113">
+    <field name="y_c" type="uint8"/>
+    <field name="cr_c" type="uint8"/>
+    <field name="cb_c" type="uint8"/>
+    <field name="sz" type="uint8"/>
+    <field name="szx1" type="uint8"/>
+    <field name="szx2" type="uint8"/>
   </message>
 
   <message name="PAYLOAD" id="114">
