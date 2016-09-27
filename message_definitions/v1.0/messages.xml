@@ -967,6 +967,11 @@
    <field name="x_dist" type="float"/>
    <field name="y_dist" type="float"/>
    <field name="z_dist" type="float"/>
+   <field name="x_filter" type="float"/>
+   <field name="y_filter" type="float"/>
+   <field name="z_filter" type="float"/>
+   <field name="x_body_v" type="float"/>
+   <field name="y_body_v" type="float"/>
     <field name="y_c" type="uint8"/>
     <field name="cr_c" type="uint8"/>
     <field name="cb_c" type="uint8"/>
