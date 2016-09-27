@@ -959,6 +959,14 @@
   </message-->
   
   <message name="SNAKE_GATE_INFO" id="113">
+   <field name="pix_x" type="int16"/>
+   <field name="pix_y" type="int16"/>
+   <field name="pix_sz" type="int16"/>
+   <field name="hor_angle" type="float"/>
+   <field name="vert_angle" type="float"/>
+   <field name="x_dist" type="float"/>
+   <field name="y_dist" type="float"/>
+   <field name="z_dist" type="float"/>
     <field name="y_c" type="uint8"/>
     <field name="cr_c" type="uint8"/>
     <field name="cb_c" type="uint8"/>
