@@ -978,6 +978,7 @@
     <field name="sz" type="uint8"/>
     <field name="szx1" type="uint8"/>
     <field name="szx2" type="uint8"/>
+    <field name="psi_gate" type="float" alt_unit="deg" alt_unit_coef="57.29578"/>
   </message>
 
   <message name="PAYLOAD" id="114">
