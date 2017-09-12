@@ -959,26 +959,11 @@
   </message-->
   
   <message name="SNAKE_GATE_INFO" id="113">
-   <field name="pix_x" type="int16"/>
-   <field name="pix_y" type="int16"/>
-   <field name="pix_sz" type="int16"/>
-   <field name="hor_angle" type="float"/>
-   <field name="vert_angle" type="float"/>
-   <field name="x_dist" type="float"/>
-   <field name="y_dist" type="float"/>
-   <field name="z_dist" type="float"/>
-   <field name="x_filter" type="float"/>
-   <field name="y_filter" type="float"/>
-   <field name="z_filter" type="float"/>
-   <field name="x_body_v" type="float"/>
-   <field name="y_body_v" type="float"/>
-    <field name="y_c" type="uint8"/>
-    <field name="cr_c" type="uint8"/>
-    <field name="cb_c" type="uint8"/>
-    <field name="sz" type="uint8"/>
-    <field name="szx1" type="uint8"/>
-    <field name="szx2" type="uint8"/>
-    <field name="psi_gate" type="float" alt_unit="deg" alt_unit_coef="57.29578"/>
+   <field name="debug 1" type="float"/>
+   <field name="debug 2" type="float"/>
+   <field name="debug 3" type="float"/>
+   <field name="debug 4" type="float"/>
+   <field name="debug 5" type="float"/>
   </message>
 
   <message name="PAYLOAD" id="114">
