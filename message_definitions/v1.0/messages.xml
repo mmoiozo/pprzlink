@@ -958,6 +958,7 @@
     <field name="serial1" type="uint32"/>
   </message-->
   
+  
   <message name="SNAKE_GATE_INFO" id="113">
    <field name="debug 1" type="float"/>
    <field name="debug 2" type="float"/>
