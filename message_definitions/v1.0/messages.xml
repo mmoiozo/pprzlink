@@ -960,11 +960,11 @@
   
   
   <message name="SNAKE_GATE_INFO" id="113">
-   <field name="debug 1" type="float"/>
-   <field name="debug 2" type="float"/>
-   <field name="debug 3" type="float"/>
-   <field name="debug 4" type="float"/>
-   <field name="debug 5" type="float"/>
+   <field name="debug_1" type="float"/>
+   <field name="debug_2" type="float"/>
+   <field name="debug_3" type="float"/>
+   <field name="debug_4" type="float"/>
+   <field name="debug_5" type="float"/>
   </message>
 
   <message name="PAYLOAD" id="114">
